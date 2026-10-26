@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Корнилов Владимир: мои проекты и идея игры с открытым миром.">
+  <title>Корнилов Владимир — сайт-визитка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержимому</a>
+  <header>
+    <div class="container header-row">
+      <a class="logo" href="#about">ВК.</a>
+      <nav aria-label="Основная навигация">
+        <a href="#about">Обо мне</a>
+        <a href="#idea">Моя идея</a>
+        <a href="#projects">Проекты</a>
+      </nav>
+      <p>ПДОП 36</p>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="screen" id="about">
+      <div class="container grid">
+        <div>
+          <p class="label">01 / ОБО МНЕ</p>
+          <h1>Корнилов Владимир</h1>
+          <p class="lead">Моя цель — создавать игры.</p>
+          <p>Я студент группы ПДОП 36. Мне интересно создавать приложения и игровые миры. Мои проекты для Android и Unity можно посмотреть на GitHub.</p>
+          <p>В будущем я хочу создать большую игру с открытым миром, множеством измерений и искусственным интеллектом для персонажей.</p>
+          <a class="button" href="#idea">Подробнее о моей идее</a>
+        </div>
+        <figure>
+          <img src="images/workspace.svg" width="640" height="520" alt="Иллюстрация рабочего стола с компьютером и кодом">
+          <figcaption>От небольших проектов — к большой игровой вселенной.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="screen idea" id="idea">
+      <div class="container">
+        <p class="label">02 / МОЯ ИДЕЯ</p>
+        <h2>Игра, которую я хочу создать</h2>
+        <p class="lead">Открытый мир, разные измерения и большая история.</p>
+        <p>Я хочу сделать игру, в которой можно свободно исследовать мир и переходить между множеством измерений. У каждого измерения будут свои особенности, атмосфера и истории, связанные общим сюжетом.</p>
+        <div class="features">
+          <article class="card">
+            <h3>Открытый мир</h3>
+            <p>Хочу дать игроку возможность исследовать локации, находить необычные места и выбирать, куда отправиться дальше.</p>
+          </article>
+          <article class="card">
+            <h3>ИИ для персонажей</h3>
+            <p>Планирую использовать ИИ, чтобы персонажи учитывали происходящие события, реагировали на действия игрока и участвовали в диалогах.</p>
+          </article>
+          <article class="card">
+            <h3>Большой сюжет</h3>
+            <p>Хочу создать объёмную сюжетную часть с основными и дополнительными историями, интересными героями и связями между измерениями.</p>
+          </article>
+        </div>
+        <h3>Что понадобится для разработки</h3>
+        <p>Для такого проекта мне потребуется много времени, финансирование, техника и вычислительные ресурсы для работы с ИИ. Также нужна команда: программисты, геймдизайнеры, сценаристы, художники, специалисты по звуку и тестировщики.</p>
+        <p>Начать я хочу с небольшого прототипа: одной локации, одного персонажа с ИИ и короткого сюжетного задания. Это поможет проверить идею и понять, какие ресурсы понадобятся для дальнейшей разработки.</p>
+        <p class="note">Сейчас это моя идея будущего проекта. Полноценная игра и ИИ для её персонажей пока не реализованы.</p>
+      </div>
+    </section>
+
+    <section class="screen" id="projects">
+      <div class="container">
+        <p class="label">03 / МОИ ПРОЕКТЫ</p>
+        <h2>Что я уже делаю</h2>
+        <p>Здесь собраны два публичных проекта из моего профиля GitHub.</p>
+        <div class="grid">
+          <article class="card">
+            <img src="images/shopping-list.svg" width="600" height="340" alt="Иллюстрация телефона со списком покупок" loading="lazy">
+            <h3>ShoppingList</h3>
+            <p>Android-приложение для списка покупок. Данные хранятся в Room, настройки темы и языка — в DataStore. Есть режим покупок через уведомление, русский и английский языки.</p>
+            <p class="note">Android · Kotlin · Room · DataStore</p>
+            <a class="button" href="https://github.com/Vovanvy/ShoppingList">Исходный код ShoppingList</a>
+          </article>
+          <article class="card">
+            <img src="images/chaos-library.svg" width="600" height="340" alt="Иллюстрация книжной полки и открытой книги" loading="lazy">
+            <h3>ChaosLibrary</h3>
+            <p>Проект на Unity с взаимодействием с книгами. Игрок может поднимать их, забирать с полок, ставить обратно и бросать. Подсказки на экране показывают доступные действия.</p>
+            <p class="note">Unity · C# · TextMesh Pro</p>
+            <a class="button" href="https://github.com/Vovanvy/ChaosLibrary">Исходный код ChaosLibrary</a>
+          </article>
+        </div>
+        <p class="note">Картинки выше — тематические иллюстрации, а не скриншоты приложений. Будущая игра с измерениями — отдельная идея.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h3>Автор</h3>
+        <p>Корнилов Владимир</p>
+        <p>Группа ПДОП 36</p>
+      </div>
+      <div>
+        <h3>Разделы сайта</h3>
+        <a href="#about">Обо мне</a>
+        <a href="#idea">Моя идея</a>
+        <a href="#projects">Проекты</a>
+      </div>
+      <div>
+        <h3>Ссылки</h3>
+        <a href="https://github.com/Vovanvy">Мой GitHub — Vovanvy</a>
+        <a href="https://htmlbook.ru/html">Справочник HTML</a>
+        <a href="https://htmlbook.ru/css">Справочник CSS</a>
+      </div>
+    </div>
+    <p class="container copyright">© 2026 Корнилов Владимир. Учебный сайт на HTML и CSS.</p>
+  </footer>
+</body>
+</html>
