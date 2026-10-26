@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520">
+<rect width="640" height="520" fill="#e5e9dc"/><circle cx="466" cy="142" r="77" fill="#d4ddc9"/><path d="M45 412H598" stroke="#9ba98b" stroke-width="3"/>
+<rect x="102" y="111" width="412" height="264" rx="12" fill="#294638"/><rect x="117" y="126" width="382" height="228" rx="4" fill="#f7f7ec"/>
+<path d="M117 158H499" stroke="#d6ddce" stroke-width="2"/><g fill="#9baa88"><circle cx="133" cy="142" r="4"/><circle cx="147" cy="142" r="4"/><circle cx="161" cy="142" r="4"/></g>
+<g font-family="monospace" font-size="21" fill="#345d48"><text x="144" y="204">&lt;html lang="ru"&gt;</text><text x="164" y="244">&lt;h1&gt;Привет!&lt;/h1&gt;</text><text x="164" y="284">&lt;p&gt;Мой сайт&lt;/p&gt;</text><text x="144" y="324">&lt;/html&gt;</text></g>
+<path d="M280 375H337L344 402H270Z" fill="#294638"/><rect x="246" y="400" width="123" height="12" rx="5" fill="#294638"/>
+<path d="M505 370H559L551 411H513Z" fill="#b3714a"/><path d="M532 370V314M531 344Q495 339 498 313Q530 310 531 344M534 333Q562 327 566 300Q536 299 534 333" fill="#5f7b4e" stroke="#5f7b4e" stroke-width="4"/>
+<path d="M83 389L183 379L204 407L104 420Z" fill="#c99c6c"/><path d="M94 389L177 384M101 397L185 391" stroke="#faf4df" stroke-width="3"/>
+</svg>
